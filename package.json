@@ -1,6 +1,6 @@
 {
-  "homepage": "https://shubh27842.github.io/blog",
   "name": "text-editor",
+  "homepage": "https://shubh27842.github.io/text-editor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

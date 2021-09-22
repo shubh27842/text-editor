@@ -8,7 +8,7 @@ import Editor from "./Components/Editor"
 function App() {
   return (
     <div className="App">
-      <Router basename="/blog">
+      <Router basename="/text-editor">
         <Switch>
           <Route exact path="/" component={Editor} />
         </Switch>
