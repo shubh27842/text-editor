@@ -1,6 +1,6 @@
 import {syllable} from "syllable";
 
-const Readability = (text) => {
+function Readability(text){
     const sentence= text.split(".");
     const sentenceCount = sentence.length-1;
     let wordCount = 0;
@@ -38,6 +38,8 @@ const Readability = (text) => {
         return "Easy to read";
     else if(RE>=90 && RE<=100)
         return "Very easy to read";
+    else
+        return "-"
 }
 
 export default Readability;
