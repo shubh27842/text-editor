@@ -1,0 +1,104 @@
+.editor{
+    width: 85vw;
+}
+.btnBar{
+    background-color: #F5F5F5;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    color: #757575;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #424242;
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 5px;
+}
+.btn:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+.btn>*{
+    pointer-events: none;
+}
+.buttonActive{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.sideBarHead{
+    font-size: 18px;
+    font-weight: 600;
+    color: #00B0FF;
+}
+.sideTable{
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    width: 300px;
+}
+.sideTable tr:first-child{
+    border-bottom: 1px solid #EEEEEE;
+} 
+.sideTable tr:nth-child(2){
+    border-bottom: 1px solid #EEEEEE;
+}
+.sideTable tr th{
+    color: #757575;
+    font-weight: 400;
+}
+.sideTable tr td{
+    color: #757575;
+    font-weight: 500;
+}
+.editorWrapper{
+    padding: 10px 15px;
+    min-height: 92vh;
+    max-height: 92vh;
+    overflow-y: scroll;
+}
+.keywordWrapper{
+    width: 300px;
+}
+.editorWrapper::-webkit-scrollbar {
+    width: 5px;
+  }
+  .editorWrapper::-webkit-scrollbar-thumb {
+    background: #2196F3; 
+    border-radius: 5px;
+  }
+
+.keyword{
+    width: fit-content;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    color: #fff;
+    padding:  3px 10px;
+    margin: 5px;
+}
+
+.sidebar{
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+  }
+  .sidebar::-webkit-scrollbar-thumb {
+    background: #2196F3; 
+    border-radius: 5px;
+  }
