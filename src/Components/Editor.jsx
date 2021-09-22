@@ -201,20 +201,22 @@ const EditorText = () => {
                 <div className="w-100">
                     <p className="mb-2  sideBarHead">Performance</p>
                     <table className="sideTable w-100">
-                        <tr className="d-flex flex-column px-3 py-1 position-relative">
-                            <th >Power Words</th>
-                            <td>{pwordCount}</td>
-                            <td className="position-absolute" style={{right: "10px" , top: "15px", cursor: "pointer", color: "#BDBDBD"}}> <InfoOutlinedIcon sx={{width: "20px"}} /> </td>
-                        </tr>
-                        <tr className="d-flex flex-column  px-3 py-1 position-relative">
-                            <th>Readability</th>
-                            <td>{readability}</td>
-                            <td className="position-absolute" style={{right: "10px" , top: "15px", cursor: "pointer", color: "#BDBDBD"}}> <InfoOutlinedIcon sx={{width: "20px"}} /> </td>
-                        </tr>
-                        <tr className="d-flex flex-column  px-3 py-1">
-                            <th>Words Count</th>
-                            <td className="text-primary">{wordCount}</td>
-                        </tr>
+                        <tbody>
+                            <tr className="d-flex flex-column px-3 py-1 position-relative">
+                                <th >Power Words</th>
+                                <td>{pwordCount}</td>
+                                <td className="position-absolute" style={{right: "10px" , top: "15px", cursor: "pointer", color: "#BDBDBD"}}> <InfoOutlinedIcon sx={{width: "20px"}} /> </td>
+                            </tr>
+                            <tr className="d-flex flex-column  px-3 py-1 position-relative">
+                                <th>Readability</th>
+                                <td>{readability}</td>
+                                <td className="position-absolute" style={{right: "10px" , top: "15px", cursor: "pointer", color: "#BDBDBD"}}> <InfoOutlinedIcon sx={{width: "20px"}} /> </td>
+                            </tr>
+                            <tr className="d-flex flex-column  px-3 py-1">
+                                <th>Words Count</th>
+                                <td className="text-primary">{wordCount}</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 <div className="my-4 w-100">
